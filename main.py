@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = "securlens2025"
 
 SUPABASE_URL = "https://cdunrmrornbisubrsnzi.supabase.co"
-SUPABASE_KEY = "_A_VdO4o7afvIo9a03PEINw_7s5oN6wX"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNkdW5ybXJvcm5iaXN1YnJzbnppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5NjIxNTYsImV4cCI6MjA5MzUzODE1Nn0.3joKXdUQnBWZ1LJgVzF4lsbc6cgBKdkzOw2WR2LUWJY"
 RAZORPAY_KEY_ID = "Snciueabte66GJ"
 
 db = create_client(SUPABASE_URL, SUPABASE_KEY)
