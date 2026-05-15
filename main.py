@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template_string, request, redirect, session
 from supabase import create_client
 from alert import send_call_alert, send_whatsapp_clip
@@ -109,3 +108,4 @@ def logout():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+    
