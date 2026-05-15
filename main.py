@@ -1,6 +1,7 @@
 
 from flask import Flask, render_template_string, request, redirect, session
 from supabase import create_client
+from alert import send_call_alert, send_whatsapp_clip
 import os
 
 app = Flask(__name__)
